@@ -1,0 +1,21 @@
+{
+    "name": "tina/test",
+    "description": "ceshi",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tina",
+            "email": "www_huangjinyan@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "ceshi\\": "src/ceshi"
+        }
+    }
+}
